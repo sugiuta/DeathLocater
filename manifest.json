@@ -1,0 +1,31 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "プレイヤーの死亡地点を通知するアドオン",
+        "name": "Death Locater",
+        "uuid": "27c35f20-1f7a-4732-b021-d6c47578ec7e",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 17, 0]
+    },
+    "modules": [
+        {
+            "description": "NO DESCRIPTION",
+            "type": "script",
+            "language": "javascript",
+            "uuid": "99d33fc6-cf0b-4419-a56c-99d092c97d28",
+            "version": [1, 0, 0],
+            "entry": "scripts/main.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.17.0"
+        }
+    ],
+    "metadata": {
+        "authors": ["Sugiuta"],
+        "license": "MIT",
+        "url": "http://github.com/sugiuta/"
+    }
+}
